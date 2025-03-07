@@ -1,6 +1,6 @@
 {
   "name": "react-native-mehrshadiy-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "its a test package",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
