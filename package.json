@@ -64,11 +64,14 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@commitlint/config-angular": "^19.8.0",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native-community/cli": "15.0.1",
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "latest",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
@@ -82,6 +85,7 @@
     "react-native": "0.78.0",
     "react-native-builder-bob": "^0.36.0",
     "release-it": "latest",
+    "semantic-release": "^24.2.3",
     "turbo": "^1.10.7",
     "typescript": "^5.2.2"
   },

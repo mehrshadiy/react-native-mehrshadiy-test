@@ -1,18 +1,11 @@
 {
-  "npm": {
-    "publish": true,
-    "registry": "https://registry.npmjs.org/"
-  },
-  "git": {
-    "commitMessage": "chore: release v${version}",
-    "requireCleanWorkingDir": true
-  },
-  "plugins": {
-    "@release-it/conventional-changelog": {
-      "preset": {
-        "name": "conventionalcommits"
-      },
-      "infile": "CHANGELOG.md"
-    }
-  }
+  "branches": ["main"],
+  "preset": "angular",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ]
 }
